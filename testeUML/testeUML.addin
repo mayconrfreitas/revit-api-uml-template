@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command testeUML</Text>
+    <Description>Some description for testeUML</Description>
+    <Assembly>testeUML.dll</Assembly>
+    <FullClassName>testeUML.Command</FullClassName>
+    <ClientId>8ae2c034-85eb-478c-8d5c-eb60d809c0cc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application testeUML</Name>
+    <Assembly>testeUML.dll</Assembly>
+    <FullClassName>testeUML.App</FullClassName>
+    <ClientId>e67dcfd5-fb5b-460f-bb89-06b32498afbf</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
